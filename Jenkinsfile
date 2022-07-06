@@ -7,7 +7,7 @@ pipeline {
 	stage ('Build') {
 	
 	 steps {
-                sh 'mvn install' 
+                def 'mvn install' 
             }
 	
 	}
