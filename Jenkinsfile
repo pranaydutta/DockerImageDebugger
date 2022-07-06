@@ -7,7 +7,7 @@ pipeline {
 	stage ('Build') {
 	
 	 steps {
-                bat 'mvn install' 
+                sh 'mvn install' 
             }
 	
 	}
