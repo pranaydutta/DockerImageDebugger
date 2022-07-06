@@ -7,6 +7,7 @@ pipeline {
 	stage ('Build') {
 	
 	 steps {
+		 echo "inside Build stage"
                 sh 'mvn install' 
             }
 	
